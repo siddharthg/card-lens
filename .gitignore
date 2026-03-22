@@ -1,9 +1,9 @@
-# Binaries
-cardlens
-server
-debugparse
-debugext
-extract
+# Binaries (root-level only, not cmd/ subdirs)
+/cardlens
+/server
+/debugparse
+/debugext
+/extract
 
 # Frontend
 frontend/node_modules/
