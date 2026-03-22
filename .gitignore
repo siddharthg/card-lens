@@ -1,0 +1,41 @@
+# Binaries
+cardlens
+server
+debugparse
+debugext
+extract
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Embedded assets
+internal/assets/dist/
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Data (statements PDFs, extracted text)
+data/
+*.txt
+
+# Environment & secrets
+.env
+.env.*
+secret.key
+*.key
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
